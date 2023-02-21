@@ -1,0 +1,118 @@
+.the-end{
+  max-width: 100%;
+  background: #28282d;  
+  border-bottom: 2px solid #ff55a5;
+  .the-end-1{
+    max-width: 80%;
+    // border: 1px solid black;
+    margin: auto;    
+      .the-end-1-1 {
+        width: 100%;
+        color: #fff;  
+      }
+      .the-end-1-2{
+        color: rgba(255,255,255,0.7);
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 20px;
+      }
+      .the-end-1-3{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        margin-bottom: 50px;
+        img:hover{
+          cursor: pointer;
+          transition: 0.4s ease;
+          opacity: 1;  // làm mờ
+        }
+        img{
+          width: 15%;
+          opacity: 0.75;
+        }
+      } 
+  }
+}
+
+.the-end-fuck{
+  max-width: 100%;
+  background: #28282d;
+  .the-end-ok{
+    max-width: 80%;
+    margin: auto;  
+    padding-top: 50px;
+    .the-end-ok-1{
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+      padding-bottom: 40px;
+      p:hover{
+        cursor: pointer;
+        color: #ff55a5;
+      }
+      h4{
+        color: #fff;
+      }
+      p{
+        color: rgba(255,255,255,0.6);
+        transition: 0.5s;
+      }
+      
+      .the-end-ok-1-1{      
+        .app-store{
+          width: 140px;
+          img:hover{
+            cursor: pointer;
+          }
+          img{
+            width: 100%;
+            margin-bottom: 10px;
+          }
+        }
+      }
+      .the-end-ok-1-4{
+        .icon{
+          display: flex;
+          justify-content: space-between;
+          i:hover{
+            cursor: pointer;
+            color: #ff55a5;
+          }
+          .fa-square-facebook{
+            color: #007bff;
+          }
+          .fa-square-instagram{
+            color: #ff55a5;
+          }
+          .fa-twitter{
+            color: #007bff;
+          }
+          .fa-vk{
+            color: #007bff;
+          }
+        }
+      }
+    }
+    .the-end-ok-2{
+      max-width: 100%;
+      height: 80px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;     
+      p{
+        color: rgba(255,255,255,0.6);
+      }
+      .the-end-ok-2-2{
+        display: flex;
+        p:hover{
+          cursor: pointer;
+          color: #ff55a5;
+        }
+        p{
+          margin-left: 10px;
+        }
+      }
+    }   
+  }
+}
