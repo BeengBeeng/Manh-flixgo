@@ -1,0 +1,96 @@
+// *{
+//     box-sizing: border-box;
+//     margin: 0;
+//     border: 0;
+// }
+
+.login-page{
+    width: 100%;
+    height: 625px;
+    // display: flex;
+      background-image: url("http://flixgo.volkovdesign.com/main/img/section/section.jpg");
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat  ;
+      position: relative;
+    .login{
+        width: 30%;
+        height: 75%;
+        // border: 1px solid black;
+        background: #28282d;
+        margin: auto;
+        border-radius: 5px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        .login-img{
+            // border: 1px solid red;
+            width: 30%;
+            display: flex;
+            margin: auto;
+            margin-top: 50px;
+            margin-bottom: 40px;
+            img{
+                max-width: 100%;
+            }
+        }
+        .login-email-pass{
+            margin-top: 20px;
+            padding-left: 20%;
+            input{
+                width: 70%;
+                height: 35px;
+                background: #212529;
+                color: white;
+                border-radius: 5px;
+                padding-left: 10px;
+                font-size: 500;
+                border: 1px solid #212529;              
+            }
+            input:hover{
+                cursor: pointer;
+                border-color: #ff55a5;
+                transition: 0.5s;
+            } 
+            input:focus{
+                outline: 1px solid #ff55a5;
+            }     
+        }
+        .login-check{
+            margin-top: 20px;
+            padding-left: 20%;
+            margin-bottom: 20px;
+            label{
+                color: rgba(255,255,255,0.5);
+                margin-left: 10px;
+            }
+            button{
+                width: 75%;
+                height: 40px;
+                margin-top: 30px;
+                background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+                border: none;
+                border-radius: 5px;
+                color: white;
+                box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+            }
+            button:hover{
+                cursor: pointer;
+            }
+        }
+        span{           
+            margin-top: 20px;
+            padding-left: 20%;
+            
+            a{
+                color: #ff55a5;
+                
+            }                  
+        }
+        .login-check-span{
+            padding-left: 30%;
+            
+        }      
+    }
+}

@@ -1,0 +1,163 @@
+.comment-page{
+    width: 100%;
+    height: 1300px;
+    background: #2b2b31;
+    .comment{
+        width: 80%;
+        height: 500px;
+        margin: auto;
+        // border: 1px solid rgb(233, 8, 8);
+        border-bottom: 2px solid #ff55a5;
+        // margin-bottom: 20px;
+        .comment-1{
+            color: #fff;
+        }
+        .comment-2{
+            width: 100%;
+            height: 350px;
+            // border: 1px solid rgb(23, 219, 5);
+            display: flex;
+            .comment-2-1{
+                width: 50%;
+                height: 100%;
+                // border: 1px solid black;
+                display: flex;
+                justify-content: space-between;
+                .comment-2-1-1{
+                    width: 45%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 5px;
+                    }
+                    img:hover{
+                        cursor: pointer;
+                        box-shadow: -5px 14px 69px -18px #ff55a5;
+                        -webkit-box-shadow: -5px 14px 69px -18px #ff55a5;
+                        -moz-box-shadow: -5px 14px 69px -18px #ff55a5;  
+                    }
+                }
+                .comment-2-1-2{
+                    width: 50%;
+                    height: 100%;
+                    // border: 1px solid black;
+                    .explain{
+                        i{
+                            color: #ff55a5;
+                        }
+                        span{
+                            margin-right: 10px;
+                            color: #fff;
+                        }
+                    }
+                    .explain-1{
+                        color: #fff;
+                    }
+                }
+            }
+            .comment-2-2{
+                width: 50%;
+                height: 100%;
+                // border: 1px solid rgb(2, 248, 187);
+                video{
+                    width: 100%;
+                    height: 100%;
+                }
+            }  
+        }
+    }
+
+
+    .discover{
+        width: 80%;
+        height: 600px;
+        margin: auto;
+        h1{
+            color: #fff;
+            font-size: 50px;
+        }
+        .discover-1-2{
+            display: flex;
+            p{
+                font-size: 20px;
+                margin-right: 20px;
+                color: rgba(255,255,255,0.5);
+                :hover{
+                    cursor: pointer;
+                    color: #ff55a5;
+                }
+            }
+            p:hover{
+                cursor: pointer;
+                color: #ff55a5;
+            }
+        }
+        .discover-2{
+            margin-bottom: 20px;
+            i{
+                font-size: 25px;
+                margin-right: 20px;
+                color: #ff55a5;
+            }
+            span{
+                font-size: 20px;
+                color: #fff;
+            }
+            .discover-2-2{
+                // border: 1px solid black;
+                width: 60%;
+                height: 120px;
+                background: #28282d;
+                color: rgba(255,255,255,0.5);
+                margin-top: 20px;
+                display: flex;
+                align-items: center;
+                border-radius: 5px;
+            }
+        }
+        .discover-3{
+            width: 60%;
+            height: 250px;
+            border: 1px solid #ff55a5;
+            background: #28282d;
+            
+            .discover-3-1{
+                width: 100%;
+                height: 150px;
+                margin: 20px 0px 10px 20px;
+                input{
+                    width: 92%;
+                    height: 150px;
+                    background: #2b2b31;  
+                    color: white;
+                    border: 1px solid #212529;
+                    padding-left: 10px;
+                    font-size: 15px;                                 
+                }
+                input:hover{
+                    border-color: #ff55a5;
+                }
+                input:focus{
+                    outline: 1px solid #ff55a5;
+                }
+            }
+            .discover-3-2{
+                button{
+                    width: 130px;
+                    height: 50px;
+                    margin-left: 20px;
+                    margin-top: 10px;
+                    background: linear-gradient(90deg, #ff55a5 0%, #ff5860 100%);
+                    border-radius: 5px;
+                    border: none;                                    
+                }
+                button:hover{
+                    cursor: pointer;
+                    box-shadow: 0 0 20px 0 rgb(255 88 96 / 50%);
+                    transition: 0.5s;                   
+                }  
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "listmovie":
+    [
+        {
+            "id": 1,
+            "name": "Benched",
+            "category": "Comedy",
+            "rating": 7.1,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover2.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Whitney",
+            "category": "Romance, Drama",
+            "rating": 6.3,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover3.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Blindspotting",
+            "category": "Comedy, Drama",
+            "rating": 7.9,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover4.jpg"
+        },  
+        {
+            "id": 4,
+            "name": "I Dream in Another Lang",
+            "category": "Action, Triler",
+            "rating": 8.4,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Blindspotting",
+            "category": "Comedy, Drama",
+            "rating": 7.9,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover4.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Benched",
+            "category": "Comedy",
+            "rating": 7.1,
+            "image" : "http://flixgo.volkovdesign.com/main/img/covers/cover6.jpg"
+        }
+    ],
+   
+    "listitem":
+    [
+        
+    ]
+}
